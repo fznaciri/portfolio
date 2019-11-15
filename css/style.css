@@ -1,0 +1,207 @@
+body {
+    font-family:brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif
+}
+.container {
+    width: 48%;
+    margin: auto;
+    padding: 1.35rem 0;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;   
+}
+header {
+    padding: 1rem auto;
+    background-color: #e0ebe8;
+}
+.logo {
+    height: 4.75rem;
+    width: auto;
+}
+
+header nav ul {
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+a {
+    text-decoration: none;
+    color: #45b29a;
+}
+
+a:hover{
+    color: #21564b;
+}
+.active {
+    color: #21564b;
+}
+.sec1 {
+    background-color: #e0ebe8;
+    height: 35rem;
+}
+.sec1-c {
+    padding-bottom: 0;
+    height: 100%;
+}
+.top {
+    text-align: center;
+    position: relative;
+}
+.top .title {
+    font-weight: 400;
+    font-size: 1.25;
+}
+.title {
+    color: #45b29a;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.main-title {
+    color: #1e836c;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: 400;
+    margin-bottom: 6rem;
+}
+.cloud-1 {
+    position: absolute;
+    top: 1rem;
+    right: .5rem;
+    background-image: url(../imgs/cloud.svg);
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 10rem;
+}
+.cloud-2 {
+    position: absolute;
+    background-image: url(../imgs/cloud.svg);
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 10rem;
+    top: 11rem;
+    left: .5rem;
+}
+.bottom {
+    position: relative;
+    bottom: -4.75rem;
+}
+
+
+footer {
+    background-color:#bedfd7;
+    height: 8.5rem;
+    padding: 2rem 0;
+}
+
+footer nav ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+footer nav ul li {
+    display: inline-block;
+    margin-right: 4rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+nav ul li:nth-last-child(1) {
+    margin-right: 0;
+}
+footer p {
+    font-size: 0.75rem;
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 300;
+    color: #45b29a;
+}
+footer p a{
+    text-decoration-line: underline;
+}
+.img {
+    height: 10rem;
+    width: auto;
+    padding-top: 5rem;
+}
+.img1 {
+    height: 5rem;
+    width: auto;
+    padding-bottom: 2rem;
+}
+.item4 .img1 {
+    margin-right: 4rem;
+}
+.item1 .img1 {
+    margin-left: 4rem;
+}
+.description {
+    text-align: center;
+    margin: 0 12rem;
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 300;
+    color: #545454;
+    font-size: 1.5em;
+    line-height: 2.25rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3rem 3rem;
+    text-align: left;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+}
+.grid div .description {
+    text-align: left;
+    margin: auto 0;
+    font-size: 1.12em;
+}
+.grid .img {
+    padding-top: 0;
+}
+.about .title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.contact {
+    margin: auto auto 4rem auto;
+    text-align: center;
+}
+.contact .main-title{
+    margin-bottom: 3.5rem;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 10rem;
+    color: #1b7f69;
+    background-color: #45b29a;
+    text-transform: uppercase;
+    padding: .75em 2em .75em 3.5em;
+    margin-top: 2rem;
+    border-radius: .25rem;
+    position: relative;
+    text-align: center;
+}
+.email {
+    background-image: url(../imgs/mail@2x.png);
+    background-size: 24px 15px;
+    height: 15px;
+    width: 24px;
+    left: 11%;
+    top: 33%;
+    position: absolute;
+}
+.line {
+    background-image: url(../imgs/line-bg@2x.png);
+    background-repeat: repeat;
+    width: 6.3rem;
+    height: .8rem;
+    margin: 6rem auto 2rem auto;
+    text-align: center;
+}
