@@ -117,8 +117,14 @@ footer p {
     font-weight: 300;
     color: #45b29a;
 }
-footer p a{
-    text-decoration-line: underline;
+.link {
+    border-bottom: solid 2px #45b29a;
+    padding-bottom: .15rem;
+}
+
+.link:hover {
+    border-bottom: solid 2px #21564b;
+    transition: ease-in .2s all;
 }
 .img {
     height: 10rem;
@@ -204,4 +210,64 @@ footer p a{
     height: .8rem;
     margin: 6rem auto 2rem auto;
     text-align: center;
+}
+.notes {
+    margin: 4rem auto 0 auto;
+}
+.note-hero {
+    height: 18rem;
+    background-color: #e0ebe8;
+    position: relative;
+}
+.notes-img {
+    width: 12rem;
+    height: auto;
+}
+.note-hero .cloud-1{
+    right: 28rem;
+    top: 50%;
+}
+.note-hero .cloud-2{
+    left: 28rem;
+    top: 30%;
+}
+.flag {
+    position: absolute;
+    bottom: 0;
+}
+.flag-left {
+    left: 35%;
+}
+.flag-right {
+    right: 37%;
+}
+.notes h2 {
+    font-weight: 400;
+    font-size: 1.25;
+}
+.notes .main-title {
+    margin-bottom: 0;
+}
+.notes img {
+    width: 100%;
+    display: block;
+    margin: 3rem auto;
+}
+.sub-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.notes .description {
+    text-align: left;
+    width: 100%;
+    margin: 2rem 0;
+    font-size: 1.25rem;
+}
+.lead {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    line-height: 3.5rem;
+    color: #545454;
 }
