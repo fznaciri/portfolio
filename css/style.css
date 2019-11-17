@@ -1,5 +1,13 @@
+@font-face {
+    font-family: adobefont;
+    src: url(adobefont);
+}
+@font-face {
+    font-family: adobefont-regular;
+    src: url(adobefont-regular);
+}
 body {
-    font-family:brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif
+    font-family: adobefont,brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif
 }
 .container {
     width: 48%;
@@ -113,7 +121,6 @@ nav ul li:nth-last-child(1) {
 }
 footer p {
     font-size: 0.75rem;
-    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-weight: 300;
     color: #45b29a;
 }
@@ -145,11 +152,11 @@ footer p {
 .description {
     text-align: center;
     margin: 0 12rem;
-    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-weight: 300;
     color: #545454;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 2.25rem;
+    font-family: adobefont-regular;
 }
 .grid {
     display: grid;
@@ -193,6 +200,7 @@ footer p {
     border-radius: .25rem;
     position: relative;
     text-align: center;
+    font-family: adobefont-regular;
 }
 .email {
     background-image: url(../imgs/mail@2x.png);
@@ -214,7 +222,7 @@ footer p {
 .notes {
     margin: 4rem auto 0 auto;
 }
-.note-hero {
+.hero {
     height: 18rem;
     background-color: #e0ebe8;
     position: relative;
@@ -223,11 +231,11 @@ footer p {
     width: 12rem;
     height: auto;
 }
-.note-hero .cloud-1{
+.hero .cloud-1{
     right: 28rem;
     top: 50%;
 }
-.note-hero .cloud-2{
+.hero .cloud-2{
     left: 28rem;
     top: 30%;
 }
@@ -270,4 +278,56 @@ footer p {
     text-align: left;
     line-height: 3.5rem;
     color: #545454;
+}
+.work {
+    margin-bottom: 4.5rem;
+}
+.work .description {
+    width: 48%;
+    margin: auto;
+}
+.sec2 {
+    background-color: #7dcc93;
+    padding-bottom: 2rem;
+}
+.sec2 img {
+    width: 100%;
+    display: block;
+    margin: 3rem auto;
+}
+.sec2 .btn {
+    background-color: #2b3d51;
+    color: #fff;
+    padding: .75em 2em;
+}
+.sec2 h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: .4rem auto;
+}
+.sec2 h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto .5rem auto;
+    padding: 0 .5em  1.5em;
+}
+
+.sec2 .sub-container {
+    width: 80%;
+}
+.sec2 p {
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    font-weight: 100;
+}
+.sec3 {
+    background-color: #f76160;
+}
+.sec4 {
+    background-color: #f8c687;
 }
