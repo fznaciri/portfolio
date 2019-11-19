@@ -51,6 +51,7 @@ a:hover{
 .sec1 {
     background-color: #e0ebe8;
     height: 35rem;
+    overflow: hidden;
 }
 .sec1-c {
     padding-bottom: 0;
@@ -59,6 +60,7 @@ a:hover{
 .top {
     text-align: center;
     position: relative;
+    /*overflow: hidden;*/
 }
 .top .title {
     font-weight: 400;
@@ -226,6 +228,7 @@ footer p {
     height: 18rem;
     background-color: #e0ebe8;
     position: relative;
+    overflow: hidden;
 }
 .notes-img {
     width: 12rem;
@@ -330,4 +333,61 @@ footer p {
 }
 .sec4 {
     background-color: #f8c687;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .container {
+        width: 95%;
+        padding: auto;
+    }
+    .sec2 p, .work .description, .description {
+        margin: 0  0  1.5rem 0;
+        width: 100%;
+    }
+    .grid {
+        width: 100%;
+        grid-gap: 2rem 2rem;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+    }
+    .grid div .description {
+        text-align: center;
+    }
+    .item4 {
+        grid-row: 3 / span 1;
+    }
+    .sub-container {
+        width: 100%;
+    }
+    .lead {
+        font-size: 1.5rem;
+        font-weight: 200;
+        line-height: 1.4;
+        margin: 0  0  1.5rem 0;
+    }
+    .notes h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin: 0;
+    }
+    .title {
+        text-align: center;
+    }
+    .main-title {
+        margin-bottom: 4rem;
+    }
+    .bottom .land{
+        width: 100%;
+    } 
+    /*.bottom {
+        bottom: -14.56rem; 
+        display: none;
+    } */
+    .cloud-1 {
+        top: 15rem;
+    }
+    .cloud-2 {
+        top: 20rem;
+    } 
 }
