@@ -345,7 +345,7 @@ footer p {
 {
     .container {
         width: 95%;
-        padding: 0;
+        padding: auto;
     }
     .sec2 p, .work .description, .description {
         margin: 0  0  1.5rem 0;
