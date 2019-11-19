@@ -1,3 +1,6 @@
+/* * {
+    box-sizing: border-box;
+} */
 @font-face {
     font-family: adobefont;
     src: url(adobefont);
@@ -55,7 +58,6 @@ a:hover{
 }
 .sec1-c {
     padding-bottom: 0;
-    height: 100%;
 }
 .top {
     text-align: center;
@@ -97,10 +99,14 @@ a:hover{
     left: .5rem;
 }
 .bottom {
-    position: relative;
-    bottom: -4.75rem;
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
-
+.land {
+    width: 100%;
+    max-width: 800px;
+}
 
 footer {
     background-color:#bedfd7;
@@ -339,7 +345,7 @@ footer p {
 {
     .container {
         width: 95%;
-        padding: auto;
+        padding: 0;
     }
     .sec2 p, .work .description, .description {
         margin: 0  0  1.5rem 0;
@@ -377,13 +383,6 @@ footer p {
     .main-title {
         margin-bottom: 4rem;
     }
-    .bottom .land{
-        width: 100%;
-    } 
-    /*.bottom {
-        bottom: -14.56rem; 
-        display: none;
-    } */
     .cloud-1 {
         top: 15rem;
     }
